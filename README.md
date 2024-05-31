@@ -49,68 +49,68 @@ E-commerce
 Deseamos saber el comportamiento de nuestros clientes y sobre los artículos que dejan en el carrito de compras. Realizaremos un análisis para determinar lo que está sucediendo. El objetivo principal es identificar posibles razones detrás de este fenómeno y proponer estrategias efectivas para aumentar la retención y conversión de clientes.
 
 # Colaboradores:
-	Nahir Maraz - Científico de Datos - LinkedIn
+-	Nahir Maraz - Científico de Datos - LinkedIn
 
-	Víctor Rincón - Científico de Datos - LinkedIn
+-	Víctor Rincón - Científico de Datos - LinkedIn
 
-	Samuel Juan - Analista de Datos - LinkedIn
+-	Samuel Juan - Analista de Datos - LinkedIn
 
-	Daniela Puebla - Analista de Datos y Analista BI - LinkedIn
+-	Daniela Puebla - Analista de Datos y Analista BI - LinkedIn
 
 ## *Tecnologías:
-	SQL
+-	SQL
 
-	Python
+-	Python
 
-	Power BI
+- Power BI
 
 ## *Enlaces del Proyecto:
-	Repositorio en GitHub: https://github.com/No-Country/c18-81-t-data-bi 
+-	Repositorio en GitHub: https://github.com/No-Country/c18-81-t-data-bi 
 
-	Sitio Web del Proyecto
+-	Sitio Web del Proyecto
 
 ## *Descripción del Proyecto: 
 El Análisis de Carrito Abandonado es un proyecto diseñado para investigar y comprender el comportamiento de los usuarios que abandonan el carrito de compras en un sitio web de e-commerce. El objetivo principal es identificar posibles razones detrás de este fenómeno y proponer estrategias efectivas para aumentar la retención y conversión de clientes.
 
 
 ## Preguntas Clave:
-	¿En qué punto del proceso de compra los usuarios tienden a abandonar sus carritos?
+-¿En qué punto del proceso de compra los usuarios tienden a abandonar sus carritos?
 
-	¿Existen patrones comunes entre los usuarios que abandonan el carrito?
+-	¿Existen patrones comunes entre los usuarios que abandonan el carrito?
 
-	¿Qué factores (precio, costos de envío, usabilidad del sitio, etc.) influyen más en la decisión de abandonar el carrito?
+-	¿Qué factores (precio, costos de envío, usabilidad del sitio, etc.) influyen más en la decisión de abandonar el carrito?
 
-	¿Qué estrategias pueden implementarse para reducir la tasa de abandono y mejorar la experiencia del usuario?
+-	¿Qué estrategias pueden implementarse para reducir la tasa de abandono y mejorar la experiencia del usuario?
 
 ## Características del Proyecto:
-	*Modelado Predictivo:* Implementación de modelos predictivos para identificar usuarios con alta probabilidad de abandonar el carrito.
+-*Modelado Predictivo:* Implementación de modelos predictivos para identificar usuarios con alta probabilidad de abandonar el carrito.
 
-	*Análisis de Datos:* Uso de técnicas de análisis de datos para explorar y comprender el comportamiento del usuario.
+-*Análisis de Datos:* Uso de técnicas de análisis de datos para explorar y comprender el comportamiento del usuario.
 
-	*Visualización de Datos:* Creación de gráficos y visualizaciones que faciliten la interpretación de los datos y hallazgos.
+-	*Visualización de Datos:* Creación de gráficos y visualizaciones que faciliten la interpretación de los datos y hallazgos.
 
-	*Propuestas de Estrategias:* Desarrollo de recomendaciones y estrategias basadas en los insights obtenidos del análisis.
+-	*Propuestas de Estrategias:* Desarrollo de recomendaciones y estrategias basadas en los insights obtenidos del análisis.
 
 ## *Fuente de Datos:*
 Para este proyecto, se utilizarán datos simulados de carritos abandonados, disponibles en plataformas como Kaggle. Los conjuntos de datos incluirán información como:
 
-	ID del usuario
+-	ID del usuario
 
-	ID del producto
+-	ID del producto
 
-	Precio del producto
+- Precio del producto
 
-	Cantidad de productos en el carrito
+-	Cantidad de productos en el carrito
 
-	Tiempo pasado en el sitio
+-	Tiempo pasado en el sitio
 
-	Páginas visitadas antes del abandono
+-	Páginas visitadas antes del abandono
 
-	Fecha y hora de la sesión
+-	Fecha y hora de la sesión
 
-	Información demográfica (edad, ubicación, etc.)
+-Información demográfica (edad, ubicación, etc.)
 
-	Métodos de pago seleccionados
+-	Métodos de pago seleccionados
 
 
 
@@ -124,3 +124,33 @@ Para este proyecto, se utilizarán datos simulados de carritos abandonados, disp
 ## *Contacto:* 
 Para más información o consultas sobre el proyecto, por favor contacta a uno de los colaboradores a través de sus perfiles de LinkedIn.
 
+## KPI Calculados
+
+### 1. Porcentaje de Compras (KPI 1)
+- **Descripción**: Mide el porcentaje de compras realizadas respecto al total de compras.
+- **Fórmula**: 
+  $$ \text{Porcentaje de Compras} = \left( \frac{\text{Compras Realizadas}}{\text{Total de Compras}} \right) \times 100 $$
+
+### 2. Porcentaje de Compras por Género (KPI 2)
+- **Descripción**: Mide el porcentaje de compras realizadas por hombres y mujeres.
+- **Fórmula para Hombres**: 
+  $$ \text{Porcentaje de Compras (Hombres)} = \left( \frac{\text{Compras Realizadas por Hombres}}{\text{Total de Compras}} \right) \times 100 $$
+- **Fórmula para Mujeres**: 
+  $$ \text{Porcentaje de Compras (Mujeres)} = \left( \frac{\text{Compras Realizadas por Mujeres}}{\text{Total de Compras}} \right) \times 100 $$
+
+### 3. Compras por Método de Pago (KPI 3)
+- **Descripción**: Mide el porcentaje de compras realizadas en efectivo y con tarjeta de crédito, subdividido por el número de cuotas.
+- **Fórmulas**:
+  - **Efectivo**: 
+    $$ \text{Porcentaje de Compras (Efectivo)} = \left( \frac{\text{Compras en Efectivo}}{\text{Total de Compras}} \right) \times 100 $$
+  - **Tarjeta de Crédito 1 Cuota**: 
+    $$ \text{Porcentaje de Compras (1 Cuota)} = \left( \frac{\text{Compras en 1 Cuota}}{\text{Total de Compras}} \right) \times 100 $$
+  - **Tarjeta de Crédito 3 Cuotas**: 
+    $$ \text{Porcentaje de Compras (3 Cuotas)} = \left( \frac{\text{Compras en 3 Cuotas}}{\text{Total de Compras}} \right) \times 100 $$
+  - **Tarjeta de Crédito 6 Cuotas**: 
+    $$ \text{Porcentaje de Compras (6 Cuotas)} = \left( \frac{\text{Compras en 6 Cuotas}}{\text{Total de Compras}} \right) \times 100 $$
+
+### 4. Producto Más Vendido (KPI 4)
+- **Descripción**: Mide el porcentaje de ventas del producto más vendido en relación al total de compras.
+- **Fórmula**: 
+  $$ \text{Porcentaje del Producto Más Vendido} = \left( \frac{\text{Ventas del Producto Más Vendido}}{\text{Total de Compras}} \right) \times 100 $$
